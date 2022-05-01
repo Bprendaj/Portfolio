@@ -31,7 +31,7 @@ h3{
 
 .hero-image{
     background-image: url("/assets/images/underthesea.jpeg");
-    background-color: #cccccc;
+    background-color: lightcyan;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
