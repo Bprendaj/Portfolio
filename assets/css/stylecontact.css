@@ -8,13 +8,12 @@
   }
 
 .hero-image{
-    background-image: url("/assets/images/underthesea.jpeg");
-    background-color: lightcyan;
+    background-image:linear-gradient(180deg,#cc5500a8,linen);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height:800px;
+    height:300px;
 }
 
 .hero-text{
@@ -23,7 +22,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(12, 79, 238);
+    color: #cc5500;
     text-decoration: none;
   }
 
@@ -31,8 +30,6 @@ h1 {
     font-size:30px;
     text-decoration: none;
   }
-
-
 
   #header {
     display: flex;
@@ -42,14 +39,52 @@ h1 {
     color: #fff;
 }
 
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cc5500;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #cc5500;
+  color: linen;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #cc5500;
+}
+
+input[type=submit]:hover {
+  background-color: linen;
+  color: #cc5500;
+  border: 1px solid #cc5500;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: linen;
+  padding: 20px;
+}
   nav {
-    display: flex;
-    background-color: #0faeda8a;
+    display:flex;
+    background-color: linen;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: solid #cc5500 1px;
   }
 
   nav a {
-    color: #fff;
-    padding: 20px 20px;
+    color: #cc5500;
+    padding: 15px 15px;
     text-decoration: none;
     text-align: center;
   }

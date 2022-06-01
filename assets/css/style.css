@@ -8,8 +8,7 @@
   }
 
 .hero-image{
-    background-image: url("/assets/images/underthesea.jpeg");
-    background-color: lightcyan;
+    background-color: #faf0e6;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,12 +22,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(12, 79, 238);
+    color: #ec9411;
   }
 
 nav {
     display: flex;
-    background-color: #0faeda8a;
+    background-color: #ded1bd;
   }
 
 nav a {
@@ -54,15 +53,15 @@ nav a {
 .button1 {
     margin-right: 5px;
     background-color: white; 
-    color: #0837f1; 
-    border: 2px solid #0837f1;
+    color: #f18808; 
+    border: 2px solid #f18808;
     padding: 5px;
     text-decoration: none;
     font-size: large;
 }
       
 .button1:hover {
-    background-color: #0837f1;
+    background-color: #08f15da7;
     color: white;
 }
       

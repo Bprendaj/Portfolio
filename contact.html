@@ -1,7 +1,7 @@
 <head>
     <title>Brikena Prendaj</title>
     <meta charset="UFT-8" />
-    <link rel="icon" type="image/x-icon" href="./assets/images/dolphsmile.jpeg">
+    <link rel="icon" type="image/x-icon" href="./assets/images/Screen Shot 2022-05-30 at 6.26.49 PM.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/stylecontact.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head> 
@@ -9,11 +9,31 @@
 <body>
     <div class="hero-image">
         <div class="hero-text">
-            <h1><a href="mailto:someone@example.com">Send me an email</a></h1>
+            <h3> Fill out the contact form if you'd like to get in touch</h3>
          </div>
     </div>  
 
-
+    <div class="container">
+        <form action="mailto:bprendaj2@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+      
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+            
+            <label for="email"> Email Address</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Enter your email address"
+            
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+            <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 <nav>
     <a href="./index.html">Back to the Homepage</a>
     <a href="./work.html">My Work</a>
