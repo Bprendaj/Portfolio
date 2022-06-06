@@ -25,46 +25,51 @@
     transform: scale(1.2); 
   }
 
-h3{
+a{
   position: relative;
 }
 
+body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+* {box-sizing: border-box;}
+
 .hero-image{
-    background-image: url("/assets/images/underthesea.jpeg");
-    background-color: lightcyan;
+    background-image:linear-gradient(180deg,#cc5500a8,linen);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height:800px;
-}
+  }
 
 .hero-text{
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(12, 79, 238);
-  }
-
-  #header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1%;
-    color: #fff;
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #cc5500;
+  text-decoration: none;
 }
 
-  nav {
-    display: flex;
-    background-color: #0faeda8a;
-  }
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1%;
+  color: #fff;
+}
 
-  nav a {
-    color: #fff;
-    padding: 20px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
- 
+nav {
+  display: flex;
+  background-color: linen;
+  box-sizing: border-box;
+  width: 100%;
+  border-top: solid #cc5500 1px;
+}
+
+nav a {
+  color: #cc5500;
+  padding: 15px 15px;
+  text-decoration: none;
+  text-align: center;
+}

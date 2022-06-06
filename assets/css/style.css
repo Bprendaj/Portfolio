@@ -2,37 +2,39 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family:monospace;
-    margin: 0;
-  }
+  body {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+  * {box-sizing: border-box;}
 
-.hero-image{
-    background-color: #faf0e6;
+  .hero-image{
+    background-image:linear-gradient(180deg,#cc5500a8,linen);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height:800px;
-}
+  }
 
 .hero-text{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ec9411;
-  }
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #cc5500;
+  text-decoration: none;
+}
 
-nav {
+  nav {
     display: flex;
-    background-color: #ded1bd;
+    background-color: linen;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: solid #cc5500 1px;
   }
-
-nav a {
-    color: #fff;
-    padding: 20px 20px;
+  
+  nav a {
+    color: #cc5500;
+    padding: 15px 15px;
     text-decoration: none;
     text-align: center;
   }
@@ -52,9 +54,9 @@ nav a {
 
 .button1 {
     margin-right: 5px;
-    background-color: white; 
-    color: #f18808; 
-    border: 2px solid #f18808;
+    background-color: linen; 
+    color: #cc5500; 
+    border: 2px solid #cc5500;
     padding: 5px;
     text-decoration: none;
     font-size: large;
@@ -66,31 +68,31 @@ nav a {
 }
       
 .button2 {
-    margin-right: 5px;
-    background-color: white; 
-    color: #0837f1; 
-    border: 2px solid #0837f1;
-    padding: 5px;
-    text-decoration: none;
-    font-size: large;
+  margin-right: 5px;
+  background-color: linen; 
+  color: #cc5500; 
+  border: 2px solid #cc5500;
+  padding: 5px;
+  text-decoration: none;
+  font-size: large;
 }
 
 .button2:hover {
-    background-color: #0837f1;
-    color: white;
+  background-color: #08f15da7;
+  color: white;
 }
 
 .button3 {
-    margin-right: 5px;
-    background-color: white; 
-    color: #0837f1; 
-    border: 2px solid #0837f1;
-    padding: 5px;
-    text-decoration: none;
-    font-size: large;
+  margin-right: 5px;
+  background-color: linen; 
+  color: #cc5500; 
+  border: 2px solid #cc5500;
+  padding: 5px;
+  text-decoration: none;
+  font-size: large;
 }
 
 .button3:hover {
-    background-color: #0837f1;
-    color: white;
+  background-color: #08f15da7;
+  color: white;
 }
